@@ -14,11 +14,6 @@
       </div>
       <div class="card-body">
         <%= post.body %>
-        <div>
-          <i class="far fa-eye"></i><%= link_to 'show', post %>
-          <i class="far fa-edit"> <%= link_to 'Edit', edit_post_path(post) %></i>
-          <i class="fas fa-trash-alt"><%= link_to 'Delete', post, method: :delete, data: { confirm: 'Are you sure?' } %></i>
-        </div>
       </div>
     </div>
 <% end %>
