@@ -11,11 +11,6 @@ this is a blog post app and user authentication with devise and befor action to 
 - Ruby
 - bootstrap
 
-
-## Live Demo
-https://ashraffares.github.io/week4pro/
-
-
 ### Prerequisites
 Knowledge about Ruby on Rails devise gem.
 bootstrap card using header and footer.
