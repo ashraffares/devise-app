@@ -22,7 +22,7 @@ Ruby methods.
 👤 **Fares Ashraf** 
 
 - twitter:https://twitter.com/Fares09301164
-- GitHub: https://github.com/ashraffares/http-ashraffares.github.io-
+- GitHub: https://github.com/ashraffares
 - linkedin:https://www.linkedin.com/in/fares-ashraf-382a35176/
 
 ## Getting Started
@@ -34,7 +34,7 @@ Ruby methods.
 To get a local copy up and running follow these simple example steps.
 - Clone this repository with: git clone ```https://github.com/ashraffares/devise-app.git``` using your terminal or command line.
 - Change to the project directory by entering : <br>
-```cd members-only``` in the terminal .
+```cd devise-app``` in the terminal .
 
 ## 🤝 Contributing
 
