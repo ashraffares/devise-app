@@ -1,0 +1,21 @@
+<% if notice%>
+    <div class="alert alert-warning" role="alert">
+    <%= notice %>
+    </div>
+<% end %>
+<div class="container w-50">
+ <% @posts.each do |post| %>
+    <div class="card my-2">
+      <div class="card-header">
+          <%=signedin(post.user_id)%> |
+        <%= post.title %>
+      </div>
+      <div class="card-body">
+        <%= post.body %>
+      </div>
+    </div>
+<% end %>
+<%= link_to 'New Post', new_post_path,class:'btn btn-primary my-1' %>
+</div>
+
+
